@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Lua implementation unwraps grpcui oneof wrapper (`volume.shape`) and supports both wrapped and flattened shapes.
 - Added `coalition`, `player_name`, and `to_all` fields to `PlayerSendChatEvent`.
 
+### Fixed
+- Fixed output of `AtmosphereService.GetWind` to match Mission Editor settings.
+
 ## [0.8.1] 2024-11-05
 
 ### Added
